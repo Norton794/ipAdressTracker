@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.tsx'],
+  content: ['./src/**/*.jsx'],
   theme: {
+    fontFamily: {
+      'rubik': ['ui-rubik', 'Rubik']
+    },
     extend: {},
   },
   plugins: [],

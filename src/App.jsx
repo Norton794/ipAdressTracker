@@ -1,8 +1,10 @@
+import Banner from './components/Banner/'
+
 function App() {
  
 
   return (
-    <div className="min-h-screen text-zine-980"></div>
+    <Banner/>
   )
 }
 
